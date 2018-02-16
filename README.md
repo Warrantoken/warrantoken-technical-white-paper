@@ -30,7 +30,7 @@ DISCLAIMER: This Warrantoken Technical White Paper is for information purposes o
 
 The Warrantoken smart contract protocol consists of functions for the creation, registration, and transfer of product information and warranties. 
 
-[WarrantokenFlowchart](./img/warrantoken-flow.png)
+![WarrantokenFlowchart](./img/warrantoken-flow.png)
 
 Item information is stored on the blockchain in the Item structure, consisting of an identifier, owner, creator, activation indicator, and hashed password.
 
@@ -94,7 +94,7 @@ The WTK Token contract is powered by the best practices of and extensively teste
 ##### 3 week maximum duration
 ##### 48 hour +15% Token bonus period
 
-[WTKFlowchart](./img/wtk-flow.png)
+![WTKFlowchart](./img/wtk-flow.png)
 
 
 ### Warrantoken Mobile App 
@@ -102,4 +102,4 @@ The WTK Token contract is powered by the best practices of and extensively teste
 The Warrantoken mobile app functions as a client for the Warrantoken protocol and a wallet for WTK tokens, which may be given to customers as a reward. The Warrantoken mobile app is a client produced and controlled by UNIVEC FOUNDATION which uses direct connection via web3.js and private API's to enable these functions. The use of third party API's enables anonymity of current product owners, the storage of Warrantoken Protocol private information, and elimination of transaction fees. Please refer to the diagram below for a visual representation:
 
 
-[AppFlowchart](./img/app-flow.png)
+![AppFlowchart](./img/app-flow.png)
