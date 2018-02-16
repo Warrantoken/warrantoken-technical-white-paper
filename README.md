@@ -30,13 +30,7 @@ DISCLAIMER: This Warrantoken Technical White Paper is for information purposes o
 
 The Warrantoken smart contract protocol consists of functions for the creation, registration, and transfer of product information and warranties. 
 
-```mermaid
-graph LR
-    A[Business] -->|ADD ITEM API REQUEST| B(Warrantoken Server)
-    B -->|ADD ITEM TO CONTRACT| C(Blockchain)
-     C -->|RETURN IDENTIFIER| B
-     B --> |RETURN QR CODE| A
-```
+[WarrantokenFlowchart](./img/warrantoken-flow.png)
 
 Item information is stored on the blockchain in the Item structure, consisting of an identifier, owner, creator, activation indicator, and hashed password.
 
@@ -100,14 +94,7 @@ The WTK Token contract is powered by the best practices of and extensively teste
 ##### 3 week maximum duration
 ##### 48 hour +15% Token bonus period
 
-```mermaid
-graph LR
-A[Crowdsale]
-A --> C(WTK Purchased by Investors)
-A --> B(Warrantoken Minted for Rewards Program)
-B --> D(Warrantoken Distributed via Mobile App Rewards)
-
-```
+[WTKFlowchart](./img/wtk-flow.png)
 
 
 ### Warrantoken Mobile App 
@@ -115,14 +102,4 @@ B --> D(Warrantoken Distributed via Mobile App Rewards)
 The Warrantoken mobile app functions as a client for the Warrantoken protocol and a wallet for WTK tokens, which may be given to customers as a reward. The Warrantoken mobile app is a client produced and controlled by UNIVEC FOUNDATION which uses direct connection via web3.js and private API's to enable these functions. The use of third party API's enables anonymity of current product owners, the storage of Warrantoken Protocol private information, and elimination of transaction fees. Please refer to the diagram below for a visual representation:
 
 
-```mermaid
-sequenceDiagram
-    participant A as App
-    participant S as API
-    participant B as Smart Contract
-    A->>S: Transfer Warranty Request
-    S->>B: Send to Blockchain
-    S->>A: Reuest complete
-    B->>S: Ownership Transferred
-
-```
+[AppFlowchart](./img/app-flow.png)
