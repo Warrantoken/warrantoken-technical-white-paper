@@ -4,9 +4,10 @@
 
 ##### I. Abstract & Disclaimer
 ##### II. Warrantoken Smart Contract Protocol
-##### III. WTK Token Sale and WTK Token
-##### IV. Warrantoken Mobile App 
-##### V. Warrantoken Stand-Alone Blockchain
+##### III. Warrantoken Business API
+##### IV. WTK Token Sale and WTK Token
+##### V. Warrantoken Mobile App 
+##### VI. Warrantoken Stand-Alone Blockchain
 
 ### Abstract & Disclaimer
 
