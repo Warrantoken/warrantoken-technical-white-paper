@@ -89,10 +89,9 @@ The item owner may transfer the warranty to another person using the ```transfer
 
 The WTK Token contract is powered by the best practices of and extensively tested with the truffle.js framework and OpenZeppelin library. The contract includes features of:
 
-##### Hard Cap of 100,000 ETH
-##### 50% of total supply allocated to UNIVEC FOUNDATION for promotion and rewards.
-##### 3 week maximum duration
-##### 48 hour +15% Token bonus period
+##### 50% of total supply designated as Rewards tokens and allocated to UNIVEC FOUNDATION.
+##### Token sale ends January 1, 2019
+##### No unfair bonus periods or presaless
 
 ![WTKFlowchart](./img/wtk-flow.png)
 
