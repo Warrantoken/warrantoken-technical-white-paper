@@ -12,10 +12,10 @@
 ### Abstract & Disclaimer
 
 UNIVEC FOUNDATION
-February 8, 2018
+April 28, 2018
 
 
-Abstract: The Warrantoken protocol ("protocol") is a suite of software designed to automate and secure the product warranty process on the Ethereum Blockchain. The protocol, based on publicly and cryptographically verifiable proof of purchase and proof of ownership, allows manufacturers, brands, retailers and any other party to assign unique, one-time use randomly-generated private key to any products, services or digital goods sold, issued and traded online. Hashes of the unique private keys are stored on the Ethereum network and can be queried to Authenticate the user and prove ownership. Item data is stored, and is publicly available on, the Ethereum blockchain.
+Abstract: The Warrantoken protocol ("protocol") is a suite of software designed to automate and secure the product warranty process on the Ethereum Blockchain. The protocol, based on publicly and cryptographically verifiable proof of purchase and proof of ownership, allows manufacturers, brands, retailers and any other party to create warranties any products, services or digital goods sold, issued and traded online. Item ownership information is stored on the Ethereum network and can be queried to Authenticate the user and prove ownership. Item data is stored off-chain to reduce costs. The next major update to Warrantoken is a scheduled upgrade to a standalone blockchain platform in order to improve efficiency and make the system free or nearly free for businesses to register items. Warrantoken v2 will use the same smart contract code.
 
 The protocol is the base layer of the Warrantoken ecosystem. It is used by brands to create warranties for their products, which can be represented with a QR code and included in any packaging, physical or digital. It is used by customers, including many first time users of digital tokens, who download the Mobile application and other clients to activate their product warranties.
 
