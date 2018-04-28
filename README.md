@@ -6,6 +6,7 @@
 ##### II. Warrantoken Smart Contract Protocol
 ##### III. WTK Token Sale and WTK Token
 ##### IV. Warrantoken Mobile App 
+##### V. Warrantoken Stand-Alone Blockchain
 
 ### Abstract & Disclaimer
 
@@ -84,6 +85,9 @@ The item owner may transfer the warranty to another person using the ```transfer
   ```
   
   Other features of the protocol include events, authentication functions and modifiers, and a constructor function which sets the admin account - which allows the warrantoken mobile app to transfer items on a persons behalf, absorbing transactions fees. 
+### Warrantoken Business API
+
+The Warrantoken smart contract is intended to be accessed by the Warrantoken Business API. This allows metadata to be stored off-chain. The Warrantoken Business API is live and available online at https://api.warrantoken.com. The API allows businesses to register items with little blockchain knowledge and no programming or solidity knowledge. 
 
 ### WTK Token Sale and WTK Token
 
@@ -91,7 +95,8 @@ The WTK Token contract is powered by the best practices of and extensively teste
 
 ##### 50% of total supply designated as Rewards tokens and allocated to UNIVEC FOUNDATION.
 ##### Token sale ends January 1, 2019
-##### No unfair bonus periods or presaless
+##### No unfair bonus periods or presale
+##### Tokens are fixed after conclusion of token sale and will be upgraded to Warrantoken "v2" stand-alone Blockchain (see below)
 
 ![WTKFlowchart](./img/wtk-flow.png)
 
@@ -102,3 +107,8 @@ The Warrantoken mobile app functions as a client for the Warrantoken protocol an
 
 
 ![AppFlowchart](./img/app-flow.png)
+
+
+### Warrantoken Stand-Alone Blockchain
+
+The warrantoken protocol will be upgraded from an Ethereum based platform to a stand-alone blockchain. This will reduce the need for extra gas to send WTK tokens, and will allow much less expensive registration of items for businesses. After the token sale is completed, on January 1 2019, WTK tokens on the ethreum blockchain will be migrated to the stand-alone platform.
