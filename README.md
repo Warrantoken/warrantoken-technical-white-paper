@@ -96,8 +96,37 @@ The WTK Token contract is powered by the best practices of and extensively teste
 
 ##### 50% of total supply designated as Rewards tokens and allocated to UNIVEC FOUNDATION.
 ##### Token sale ends January 1, 2019
-##### No unfair bonus periods or presale
+##### Token sale distribution price point decreases over time. Token rate is reduced 5% after the first week, and subsequently after every 30 days. See code below.
 ##### Tokens are fixed after conclusion of token sale and will be upgraded to Warrantoken "v2" stand-alone Blockchain (see below)
+
+```
+  function getTokenAmount(uint256 weiAmount) internal view returns(uint256) {
+    //240 days sale
+    //9 price periods, the last one is a default.
+    //40%+ to 0%+
+    if ((now - startTime) < (1 * 60 * 60 * 24 * 7)){ // 7 day rate
+      return weiAmount.mul(rate) + ((weiAmount.mul(rate) * 40) / 100); //+40% extra!
+    } else if ((now - startTime) < (1 * 60 * 60 * 24 * 30)){ //30 day rate
+      return weiAmount.mul(rate) + ((weiAmount.mul(rate) * 35) / 100); //+35% extra!
+    } else if ((now - startTime) < (1 * 60 * 60 * 24 * 60)){ //60 day rate
+      return weiAmount.mul(rate) + ((weiAmount.mul(rate) * 30) / 100); //+30% extra!
+    } else if ((now - startTime) < (1 * 60 * 60 * 24 * 90)){ //90 day rate
+      return weiAmount.mul(rate) + ((weiAmount.mul(rate) * 25) / 100); //+25% extra!
+    } else if ((now - startTime) < (1 * 60 * 60 * 24 * 120)){ //120 day rate
+      return weiAmount.mul(rate) + ((weiAmount.mul(rate) * 20) / 100); //+20% extra!
+    } else if ((now - startTime) < (1 * 60 * 60 * 24 * 150)){ //150 day rate
+      return weiAmount.mul(rate) + ((weiAmount.mul(rate) * 15) / 100); //+15% extra!
+    } else if ((now - startTime) < (1 * 60 * 60 * 24 * 180)){ //180 day rate
+      return weiAmount.mul(rate) + ((weiAmount.mul(rate) * 10) / 100); //+10% extra!
+    } else if ((now - startTime) < (1 * 60 * 60 * 24 * 210)){ //210 day rate
+      return weiAmount.mul(rate) + ((weiAmount.mul(rate) * 5) / 100); //+5% extra!
+    } else {//normal amount.
+      return weiAmount.mul(rate);
+    }
+  }
+```
+
+
 
 ![WTKFlowchart](./img/wtk-flow.png)
 
