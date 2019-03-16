@@ -95,7 +95,6 @@ The Warrantoken smart contract is intended to be accessed by the Warrantoken Bus
 The WTK Token contract is powered by the best practices of and extensively tested with the truffle.js framework and OpenZeppelin library. The contract includes features of:
 
 ##### 50% of total supply designated as Rewards tokens and allocated to UNIVEC FOUNDATION.
-##### Token sale ends January 1, 2019
 ##### Token sale distribution price point decreases over time. Token rate is reduced 5% after the first week, and subsequently after every 30 days. See code below.
 ##### Tokens are fixed after conclusion of token sale and will be upgraded to Warrantoken "v2" stand-alone Blockchain (see below)
 
