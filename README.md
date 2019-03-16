@@ -12,7 +12,7 @@
 ### Abstract & Disclaimer
 
 UNIVEC FOUNDATION
-April 28, 2018
+March 16, 2019
 
 
 Abstract: The Warrantoken protocol ("protocol") is a suite of software designed to automate and secure the product warranty process on the Ethereum Blockchain. The protocol, based on publicly and cryptographically verifiable proof of purchase and proof of ownership, allows manufacturers, brands, retailers and any other party to create warranties any products, services or digital goods sold, issued and traded online. Item ownership information is stored on the Ethereum network and can be queried to Authenticate the user and prove ownership. Item data is stored off-chain to reduce costs. The next major update to Warrantoken is a scheduled upgrade to a standalone blockchain platform in order to improve efficiency and make the system free or nearly free for businesses to register items. Warrantoken v2 will use the same smart contract code.
@@ -21,7 +21,7 @@ The protocol is the base layer of the Warrantoken ecosystem. It is used by brand
 
 A customer rewards and general purpose token, WTK, is an additional layer on the protocol which rewards users, introduces consumers to cryptographically secured digital assets, promotes the Warrantoken mobile app and protocol and allows for general purposes token transactions via the wallet on the main screen of the Warrantoken mobile app.
 
-Copyright © 2018 Warrantoken
+Copyright © 2019 Warrantoken
 
 Without permission, anyone may use, reproduce or distribute any material in this white paper for non-commercial and educational use (i.e., other than for a fee or for commercial purposes) provided that the original source and the applicable copyright notice are cited.
 
@@ -140,4 +140,4 @@ The Warrantoken mobile app functions as a client for the Warrantoken protocol an
 
 ### Warrantoken Stand-Alone Blockchain
 
-The warrantoken protocol will be upgraded from an Ethereum based platform to a stand-alone blockchain. This will reduce the need for extra gas to send WTK tokens, and will allow much less expensive registration of items for businesses. After the token sale is completed, on January 1 2019, WTK tokens on the ethreum blockchain will be migrated to the stand-alone platform.
+The warrantoken protocol will be upgraded from an Ethereum based platform to a stand-alone blockchain. This will reduce the need for extra gas to send WTK tokens, and will allow much less expensive registration of items for businesses. After the token sale is completed, WTK tokens on the ethreum blockchain will be migrated to the stand-alone platform.
